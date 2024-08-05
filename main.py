@@ -58,4 +58,4 @@ async def add_question(question: QuestionCreate, session: Session = Depends(get_
 
 @app.get("/", summary="Root endpoint", description="Welcome message for the API.")
 async def read_root():
-    return {"message": "Welcome to the FAQ GPT API"}
+    return {"message": "Welcome to the FAQ GPT API..."}

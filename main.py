@@ -17,7 +17,7 @@ app = FastAPI(
 )
 
 # Database Configuration
-DATABASE_URL = "postgresql://faq_owner:fJakquFSwD47@ep-hidden-dream-a5qi0z1m.us-east-2.aws.neon.tech/faq?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:jIg9Cs1Lxeqy@ep-bold-darkness-a5z0u0uu.us-east-2.aws.neon.tech/neondb?sslmode=require"
 engine = create_engine(DATABASE_URL)
 
 # Models

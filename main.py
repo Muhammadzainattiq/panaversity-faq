@@ -8,12 +8,6 @@ app = FastAPI(
     title="FAQ GPT API",
     description="API for adding unanswered questions to the database",
     version="1.0.0",
-    servers=[
-        {
-            "url": "https://panaversity-faq.vercel.app/",
-            "description": "Production server"
-        }
-    ]
 )
 
 # Database Configuration
